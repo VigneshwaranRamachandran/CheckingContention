@@ -77,6 +77,8 @@ public class CallingClass {
 		System.out.println("End Time : " + l6.get(l6.size()-1).endTime);
 		System.out.println("Start Count :"+l6.get(0).count);
 		System.out.println("End Count :"+l6.get(l6.size()-1).count);
+		System.out.println("************************");
+		System.out.println("finished");
 	}
 
 }
