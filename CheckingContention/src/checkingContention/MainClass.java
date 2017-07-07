@@ -14,7 +14,9 @@ public class MainClass extends Thread {
 		try {
 			Thread.sleep(30000);
 			new CallingClass().display();
+			//System.out.println("finished");
 			System.out.println("finished");
+
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
